@@ -23,9 +23,6 @@ export const load = async () => {
 
     return {
       data: { data },
-      headers: {
-        'Content-Type': 'application/json',
-      },
     };
   } catch (error) {
     console.error('Error fetching data:', error);
@@ -33,6 +30,5 @@ export const load = async () => {
   }
 };
 
-// export let ssr = true;
-// export let csr = false;
-export let prerender = true;
+export let ssr = true;
+export let csr = false;
