@@ -23,6 +23,9 @@ export const load = async () => {
 
     return {
       data: { data },
+      headers: {
+        'Cache-Control': 'max-age=50000',
+      },
     };
   } catch (error) {
     console.error('Error fetching data:', error);
