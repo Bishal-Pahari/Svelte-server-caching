@@ -1,6 +1,7 @@
-# SvelteKit server side caching technique 
+# SvelteKit server side caching technique
 
 ## Developing
+
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
 ```bash
@@ -10,8 +11,10 @@ npm run dev
 npm run dev -- --open
 ```
 
-## First time request on server
+## first time request on server from client
+
 ![Screenshot 2024-07-18 100004](https://github.com/user-attachments/assets/997600e1-6cd1-4e84-b9f0-4e7be1cdc3b8)
 
-## Second time request on server (from any client side device)
+## Second time request on server (from any client device)
+
 ![Screenshot 2024-07-18 100012](https://github.com/user-attachments/assets/736a3ee1-8317-4bed-bdde-e796fb2854a2)
